@@ -11,7 +11,7 @@ const mongoose = require('mongoose');
 // LOCAL MONGOOSE DATABASE CONNECTION
 //mongoose.connect('mongodb://localhost/my_database', {useNewUrlParser:true, useUnifiedTopology: true, useCreateIndex: true});
 // MONGODB CLOUD
-mongoose.connect('mongodb+srv://mongo1:guest@cluster0.d2pgj.mongodb.net/my_database', {useNewUrlParser:true, useUnifiedTopology:true, useCreateIndex: true});
+mongoose.connect('mongodb+srv://user:pass@mongodb.net/my_database', {useNewUrlParser:true, useUnifiedTopology:true, useCreateIndex: true});
 
 
 const bodyParser = require('body-parser')
