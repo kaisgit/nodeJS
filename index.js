@@ -8,9 +8,9 @@ const ejs = require('ejs')
 app.set('view engine','ejs')
 
 const mongoose = require('mongoose');
-// LOCAL MONGOOSE DATABASE CONNECTION
+// LOCAL MONGODB CONNECTION
 //mongoose.connect('mongodb://localhost/my_database', {useNewUrlParser:true, useUnifiedTopology: true, useCreateIndex: true});
-// MONGODB CLOUD
+// CLOUD MONGODB CONNECTION
 mongoose.connect('mongodb+srv://user:pass@mongodb.net/my_database', {useNewUrlParser:true, useUnifiedTopology:true, useCreateIndex: true});
 
 
